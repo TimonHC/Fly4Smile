@@ -236,12 +236,10 @@ color: #EA4344;
 
 .ct-4 {
     width: 100%;
-}
-.horizontal-separator {
-    border-bottom: 1px solid #CFCFCF;
+    top: 985px;
 }
 
-.block-title h1 {
+#ct-4 h1 {
     float: left;
 
     font-family: Prompt, serif;
@@ -251,7 +249,7 @@ color: #EA4344;
     line-height: 39px;
 }
 
-.block-title a {
+#ct-4 a {
     float: right;
 
     font-family: Montserrat, serif;
@@ -263,4 +261,50 @@ color: #EA4344;
     /* Red */
 
     color: #EA4344;
+}
+.horizontal-separator {
+    top: 54px;
+    overflow:auto;
+    border-bottom: 1px solid #CFCFCF;
+}
+
+#ct-4 {
+    margin-top: 82px;
+}
+.ct-4-content h4 {
+    float: left;
+    ont-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+
+}
+.ct-4-special-offer {
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: right;
+
+    color: #555D6B;
+
+}
+.ct-4-content-description {
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #555D6B;
+
 }
