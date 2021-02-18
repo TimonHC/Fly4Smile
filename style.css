@@ -209,16 +209,58 @@ color: #EA4344;
 /*third-section*/
 .ct-3 {
     margin-top: 849px;
-}
+    }
 
 .ct-3-content {
     padding-left: 20px;
     display: table-cell;
     vertical-align: middle;
+
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
 }
+
 .ct-3-icon {
     width: 54px;
     height: 54px;
     display: table-cell;
     vertical-align: middle;
+}
+.vertical-separator {
+    border-left: 1px solid #CFCFCF;
+    border-right: 1px solid #CFCFCF;
+}
+
+.ct-4 {
+    width: 100%;
+}
+.horizontal-separator {
+    border-bottom: 1px solid #CFCFCF;
+}
+
+.block-title h1 {
+    float: left;
+
+    font-family: Prompt, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+}
+
+.block-title a {
+    float: right;
+
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+    /* Red */
+
+    color: #EA4344;
 }
