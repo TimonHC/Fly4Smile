@@ -199,8 +199,26 @@ color: #EA4344;
     top: 111px;
 
 }
+
 .carousel .carousel-indicators li {
     width: 10px;
     height: 10px;
     border-radius: 100%;
+}
+
+/*third-section*/
+.ct-3 {
+    margin-top: 849px;
+}
+
+.ct-3-content {
+    padding-left: 20px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.ct-3-icon {
+    width: 54px;
+    height: 54px;
+    display: table-cell;
+    vertical-align: middle;
 }
