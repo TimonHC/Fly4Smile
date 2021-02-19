@@ -7,6 +7,8 @@ ul {
     padding-left: 0; /*убираем левый отступ, равный 40px*/
 }
 
+
+
 .menu-button > a {
     text-decoration: none; /*убираем подчеркивание текста ссылок*/
     color: #1C232F;
@@ -312,60 +314,3 @@ color: #EA4344;
 
     color: #3E3E3E;
 }
-
-
-
-
-
-ul {
-    list-style: none;
-    max-width: 1260.33px;
-    margin: 0 auto;
-}
-
-ul li {
-    float: left;
-    width: 23.85%;
-    height: 406px;
-    opacity: 1;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-}
-ul li:hover, ul li:first-child ~ li:last-child {
-    width: 50%;
-    opacity: 1;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-}
-
-ul li:hover ~ li:last-child {
-    width: 23.85%;
-    opacity: 1;
-}
-
-ul li:nth-child(1) {
-    background: url("images/accord1.png") top center no-repeat;
-}
-ul li:nth-child(2) {
-    background: url("images/accord3.png") top right no-repeat;
-}
-ul li:nth-child(3) {
-    background: url("images/accord2.png") top center no-repeat;
-}
-
-/** Add cool filter efects **/
-ul li::before {
-    content: "";
-    display: block;
-    width: 0;
-    height: 100%;
-    -moz-transition: all 0.5s ease-in-out;
-
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-}
-
-
-
