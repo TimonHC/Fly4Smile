@@ -305,12 +305,26 @@ color: #EA4344;
 }
 
 /*fifth section*/
-.ct-5 h1{
-    font-family: Prompt, serif;
+.section-header {
+    font-family: Prompt, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 26px;
     line-height: 39px;
 
     color: #3E3E3E;
+}
+
+.header-link {
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    /* Red */
+
+    color: #EA4344;
 }
