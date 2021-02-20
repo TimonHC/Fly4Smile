@@ -31,7 +31,7 @@ ul {
     width: 100%;
 }
 
-#main-logo {
+.main-logo {
     display: inline-block;
 }
 
@@ -213,6 +213,7 @@ header .red-button {
     font-size: 18px;
     line-height: 22px;
 }
+
 .ct-3-icon {
     width: 54px;
     height: 54px;
@@ -290,6 +291,7 @@ header .red-button {
 
     color: #555D6B;
 }
+
 .horizontal-separator {
     top: 54px;
     overflow:auto;
@@ -326,3 +328,169 @@ header .red-button {
     padding: 0;
 
 }
+
+.footer-container {
+    display: block;
+    margin-top: 60px;
+}
+
+.footer-column {
+    display: inline-block;
+}
+
+#first-column {
+    margin-bottom: 30px;
+}
+
+#second-column {
+    margin-left: 1.5%;
+}
+
+#third-column {
+    margin-left: 8%;
+}
+
+#fourth-column {
+    margin-left: 8%;
+}
+
+#fifth-column {
+margin-left: 8%;
+}
+
+.footer-column > .advantages {
+margin-top: 15px;
+    padding-right: 15px;
+}
+
+.footer-column > .c3-content {
+    /* Personalized treatment plans and travel packages */
+
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #000000;
+
+}
+
+.footer-column > .vertical-separator {
+    border-right: 1px solid #CFCFCF;
+    border-left: 0 solid transparent;
+}
+
+.footer-column > .main-logo {
+    margin-bottom: 35px;
+}
+
+.footer-h1 {
+    /* TREATMENTS */
+    font-family: Prompt, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    /* or 23px */
+
+    /* Text */
+    color: #1C232F;
+    text-decoration: none;
+}
+
+.footer-h1:hover {
+    text-decoration: none;
+    color: #1C232F;
+}
+
+.footer-p {
+    text-decoration: none;
+
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    color: #555D6B;
+}
+
+.footer-p:hover {
+text-decoration: none;
+    color: #555D6B;
+}
+.footer-column > p {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+.slider {
+    text-align: center;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+
+    overflow-x: auto;
+    scroll-snap-type: none;
+
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+
+    /*
+    scroll-snap-points-x: repeat(300px);
+    scroll-snap-type: mandatory;
+    */
+}
+.slides::-webkit-scrollbar {
+   width: 10px;
+    height: 10px;
+
+}
+.slides::-webkit-scrollbar-thumb {
+    background: #089FB9;
+    border-radius: 31px;
+    width: 10px;
+}
+
+.slides::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.slides > div {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    margin-right: 50px;
+    transform-origin: center center;
+    transform: scale(1);
+    transition: transform 0.5s;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+.slides > div:target {
+    /*   transform: scale(0.8); */
+
+}
+
+.slides > div > img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+
+}
+
+
+
