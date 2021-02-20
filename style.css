@@ -32,10 +32,13 @@ ul {
 }
 
 #main-logo {
+    display: inline-block;
+}
+
+#main-logo .img-fluid {
     /* fly4smile_logo 1 */
-    position: absolute;
-    width: 13.7%;
-    height: 53px;
+
+
     left: 70px;
     top: 31px;
 
@@ -43,8 +46,8 @@ ul {
 
 #navigation-menu-wrapper {
     /* Home Page Treatments Gallery Clinics How It Works About Us Contact Us */
+display: inline-block;
 
-    position: absolute;
     width: 792px;
     height: 20px;
     left: 505px;
@@ -63,7 +66,7 @@ ul {
 }
 
 .menu-button {
-    display: inline;
+    display: inline-block;
     margin-right: 15px;
     transition: 1s linear;
 }
@@ -87,7 +90,7 @@ color: #EA4344;
 #header-search-button {
     /* icons8-search-50 1 */
 
-    position: absolute;
+    display: inline-block;
     width: 39px;
     height: 39px;
     left: 1431px;
@@ -99,7 +102,7 @@ color: #EA4344;
 #header-favorites-button {
     /* icons8-love-50 1 */
 
-    position: absolute;
+    display: inline-block;
     width: 39px;
     height: 39px;
     left: 1490px;
@@ -127,7 +130,7 @@ color: #EA4344;
 #favorites-text {
     /* 7 */
 
-    position: absolute;
+
     width: 11px;
     height: 22px;
     left: 1504px;
@@ -146,7 +149,7 @@ color: #EA4344;
 #header-localization-button {
     /* image 1 */
 
-    position: absolute;
+    display: inline-block;
     width: 26px;
     height: 20px;
     left: 1553px;
@@ -159,10 +162,9 @@ color: #EA4344;
 .red-button {
     /* Rectangle 3 */
 
-    position: absolute;
+    display: inline-block;
     width: 217px;
     height: 52px;
-    left: 1633px;
     top: 31px;
 
     background: #EA4344;
@@ -172,6 +174,9 @@ color: #EA4344;
 }
 .red-button:hover {
     background: #1C232F;
+}
+header .red-button {
+ float: right;
 }
 
 #get-free-quote-button-text {
@@ -190,26 +195,13 @@ color: #EA4344;
     color: #FFFFFF;
 }
 
-#carouesel-wrapper {
-
-    /* christopher-campbell-kFCdfLbu6zA-unsplash 1 */
-    position: absolute;
-    width: 1920px;
-    height: 697px;
-    left: 0;
-    top: 111px;
-
-}
 .carousel .carousel-indicators li {
     width: 10px;
     height: 10px;
     border-radius: 100%;
 }
 
-/*third-section*/
-.ct-3 {
-    margin-top: 849px;
-    }
+
 .ct-3-content {
     padding-left: 20px;
     display: table-cell;
@@ -327,4 +319,10 @@ color: #EA4344;
     /* Red */
 
     color: #EA4344;
+}
+
+#how-it-works .ct-8-content {
+   margin: 0;
+    padding: 0;
+
 }

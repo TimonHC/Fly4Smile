@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Fly4Smile</title>
     <link href="style.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="node_modules/light-carousel/css/styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style type="text/css"> img { max-width: 100%; } </style>
@@ -13,11 +12,12 @@
 </head>
 
 <body>
-<header>
+
+<header class="container-fluid">
 
     <div id="main-logo">
         <a href="#">
-            <img src="images/fly4smile_logo%201.png" alt="awesome logo">
+            <img class="img-fluid" src="images/fly4smile_logo%201.png" alt="awesome logo">
         </a>
     </div>
 
@@ -55,7 +55,7 @@
 
 </header>
 
-<div id="carouesel-wrapper">
+<div id="container-fluid carousel-wrapper">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" ></li>
@@ -253,7 +253,7 @@
             <div class="col-sm-6 col-lg-3">
 
                 <div>
-                    <img class="card-img" src="images/acc-img-3.png"  alt="Card image">
+                    <img class="card-img" src="images/acc-img-3.png" alt="Card image">
                     <div class="card-img-overlay">
                         <h5 class="card-title">Название карточки</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -315,7 +315,44 @@
 
 </div>
 
+<div id="how-it-works">
 
+    <div id="ct-8" class="container align-center-items horizontal-separator">
+        <h1 class="section-header">How It Works</h1>
+    </div>
+
+    <div class="container-fluid ct-8-content">
+        <div class="card text-white">
+            <img class="card-img" src="images/ct-8-img.png" alt="Card image">
+            <div class="card-img-overlay">
+                <h1>HEADER</h1>
+
+                <div class="vertical-separator">
+                    <h2>header</h2>
+                    <p>qqqq</p>
+                </div>
+
+                <div class="vertical-separator">
+                    <h2>header</h2>
+                    <p>qqqq</p>
+                </div>
+
+                <div class="heart-separator">
+                    <h2>header</h2>
+                    <p>qqqq</p>
+                </div>
+
+                <div class="red-button"></div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer class="container-fluid">
+
+</footer>
 
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
