@@ -12,6 +12,9 @@ ul {
         margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
         padding-left: 0; /*убираем левый отступ, равный 40px*/
     }
+p {
+padding: 0;
+margin:0;}
 
 
 
@@ -28,6 +31,8 @@ ul {
         display: inline-block;
     }
 .section-header {
+    margin-bottom: 15px;
+    display: inline-block;
     font-family: Prompt, sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -37,11 +42,14 @@ ul {
     color: #3E3E3E;
 }
 .horizontal-separator {
-    top: 54px;
+    margin-bottom: 40px;
     overflow:auto;
     border-bottom: 1px solid #CFCFCF;
 }
-
+.vertical-separator {
+    border-left: 1px solid #CFCFCF;
+    border-right: 1px solid #CFCFCF;
+}
 
 
 
@@ -170,7 +178,7 @@ ul {
 
                 margin-top: 13px;
                 margin-bottom: 13px;
-               text-align: center;
+                text-align: center;
 
                 font-family: Montserrat, serif;
                 font-style: normal;
@@ -181,7 +189,6 @@ ul {
 
                 color: #FFFFFF;
             }
-
 
 
         .carousel .carousel-indicators li {
@@ -246,6 +253,9 @@ ul {
         }
         #search {
               /* Rectangle 5 */
+            float: left;
+            margin: 0;
+            padding: 0;
             width: 485px;
             height: 50px;
             background: rgba(255, 255, 255, 0.8);
@@ -254,55 +264,71 @@ ul {
             border-radius: 67px;
             vertical-align: center;
         }
-        #search-red-button {
-            width: 140px;
-            height: 50px;
-            vertical-align: center;
-
-        }
-        .ct-3-content {
-            padding-left: 20px;
-            display: table-cell;
-            vertical-align: middle;
-
-            font-family: Montserrat, serif;
+        #search-button-text {
+            position: absolute;
+            padding-left: 39px;
+            padding-top: 14px;
+            font-family: Montserrat, sans-serif;
             font-style: normal;
-            font-weight: normal;
+            font-weight: bold;
             font-size: 18px;
             line-height: 22px;
+
+            color: #FFFFFF;
         }
+        #search-red-button {
+                    margin-left: 20px;
+                    float: left;
+                    width: 140px;
+                    height: 50px;
+
+
+                    padding: 0;
+                }
+
+        .ct-3 {
+            margin-top: 51px;
+        }
+        .ct-3-content {
+                    padding-left: 20px;
+                    display: table-cell;
+                    vertical-align: middle;
+
+                    font-family: Montserrat, serif;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 22px;
+                }
         .ct-3-icon {
             width: 54px;
             height: 54px;
             display: table-cell;
             vertical-align: middle;
         }
-        .carousel-wrapper {
-            padding-left: 0;!important;
-            padding-right: 0;!important;
 
-        }
 
-        .vertical-separator {
-            border-left: 1px solid #CFCFCF;
-            border-right: 1px solid #CFCFCF;
-        }
+
 
     /*fourth section*/
-    .ct-4 {
-        width: 100%;
-        top: 985px;
-    }
-    .ct-4 h1 {
-        font-family: Prompt, serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 26px;
-        line-height: 39px;
 
-        color: #3E3E3E;
-    }
-    #ct-4 a {
+#ct-4 {
+    margin-top: 71px;
+
+}
+    .ct-4 > h1 {
+        display: inline-block;
+            float: left;
+            font-family: Prompt, serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 26px;
+            line-height: 39px;
+
+            color: #3E3E3E;
+        }
+    #ct-4 > a {
+        display: inline-block;
         float: right;
 
         font-family: Montserrat, serif;
@@ -310,15 +336,13 @@ ul {
         font-weight: normal;
         font-size: 18px;
         line-height: 22px;
-
-        /* Red */
+/* Red */
 
         color: #EA4344;
     }
-    #ct-4 {
-        margin-top: 82px;
-    }
     .ct-4-content h4 {
+        display: inline-block;
+        margin-top: 20px;
         float: left;
         ont-family: Montserrat;
         font-style: normal;
@@ -333,6 +357,10 @@ ul {
 
     }
     .ct-4-special-offer {
+        display: inline-block;
+        margin-top: 23px;
+        margin-left: 10px;
+        float: left;
         font-family: Montserrat, serif;
         font-style: normal;
         font-weight: normal;
@@ -346,6 +374,8 @@ ul {
 
     }
     .ct-4-content-description {
+        margin-top: 30px;
+        display: inline-block;
         font-family: Montserrat, serif;
         font-style: normal;
         font-weight: normal;
@@ -355,7 +385,37 @@ ul {
         color: #555D6B;
     }
 
+    #ct-5 {
+        margin-top: 50px;
+    }
+    #contact-us-card > img{
+        padding-left: 20px;
+        padding-top: 30px;
+    }
+    #contact-us-card > h5 {
+        /* Get a Free Quote */
+        font-family: Prompt, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 39px;
 
+        margin-top:  10px;
+        margin-left: 20px;
+        color: #FFFFFF;
+    }
+    #contact-us-card > p {
+        /* Please feel free to complete the form and we will provide you with a quote for the treatment you requested. */
+        position: absolute;
+
+        font-family: Montserrat, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+
+        color: #FFFFFF;
+    }
 
 
     .header-link {
