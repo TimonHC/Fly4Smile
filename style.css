@@ -15,6 +15,17 @@ ul {
 p {
 padding: 0;
 margin:0;}
+h1 {
+    font-family: Prompt, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 51px;
+
+    color: #FFFFFF;
+
+
+}
 
 
 
@@ -50,7 +61,29 @@ margin:0;}
     border-left: 1px solid #CFCFCF;
     border-right: 1px solid #CFCFCF;
 }
+.vertical-separator-right {
+    border-right: 1px solid #CFCFCF;
+}
+.header-link {
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    /* Red */
 
+    color: #EA4344;
+}
+.white-button {
+    width: 200px;
+    height: 52px;
+    transition: all .4s ease;
+    background: #FFFFFF;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: inline-block;
+}
 
 
     .header {
@@ -190,7 +223,6 @@ margin:0;}
                 color: #FFFFFF;
             }
 
-
         .carousel .carousel-indicators li {
             width: 10px;
             height: 10px;
@@ -309,9 +341,6 @@ margin:0;}
 
 
 
-
-    /*fourth section*/
-
 #ct-4 {
     margin-top: 71px;
 
@@ -385,14 +414,16 @@ margin:0;}
         color: #555D6B;
     }
 
-    #ct-5 {
+
+
+#ct-5 {
         margin-top: 50px;
     }
-    #contact-us-card > img{
+    .contact-us-card > img{
         padding-left: 20px;
         padding-top: 30px;
     }
-    #contact-us-card > h5 {
+    .contact-us-card > h5 {
         /* Get a Free Quote */
         font-family: Prompt, sans-serif;
         font-style: normal;
@@ -404,9 +435,10 @@ margin:0;}
         margin-left: 20px;
         color: #FFFFFF;
     }
-    #contact-us-card > p {
+    .contact-us-card > p {
         /* Please feel free to complete the form and we will provide you with a quote for the treatment you requested. */
-        position: absolute;
+
+        margin-left: 20px;
 
         font-family: Montserrat, sans-serif;
         font-style: normal;
@@ -416,19 +448,203 @@ margin:0;}
 
         color: #FFFFFF;
     }
+    .contact-us-card .white-button {
+        margin-left: 20px;
+        float: bottom;
+    }
+    .contact-us-card .white-button:hover {
+        color: #1C232F;
+    }
+    .contact-us-card .white-button a {
+        /* Get It Now */
+        margin-left: 52px;
+        margin-top: 15px;
+        position: absolute;
 
 
-    .header-link {
-        font-family: Montserrat, serif;
+        font-family: Montserrat, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        /* identical to box height */
+        text-align: center;
+
+        /* Text */
+        color: #1C232F;
+
+
+}
+
+    #white-card > h5 {
+        /* Get a Free Quote */
+        font-family: Prompt, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 39px;
+
+        margin-top:  10px;
+        margin-left: 20px;
+        color: #1C232F;
+    }
+    #white-card > p {
+        /* Please feel free to complete the form and we will provide you with a quote for the treatment you requested. */
+
+        margin-left: 20px;
+
+        font-family: Montserrat, sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 18px;
         line-height: 22px;
-        /* identical to box height */
-        /* Red */
 
-        color: #EA4344;
+        color: #1C232F;
     }
+    #white-card .white-button {
+        margin-top: 20px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        margin-left: 20px;
+        float: bottom;
+    }
+    #white-card > .white-button:hover {
+        color: #1C232F;
+    }
+    #white-card .white-button a {
+        /* Get It Now */
+        margin-left: 52px;
+        margin-top: 15px;
+        position: absolute;
+
+
+        font-family: Montserrat, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        /* identical to box height */
+        text-align: center;
+
+        /* Text */
+        color: #1C232F;
+
+
+}
+
+    #blue-card > h5 {
+        /* Get a Free Quote */
+        font-family: Prompt, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 39px;
+
+        margin-top:  10px;
+        margin-left: 20px;
+    }
+    #blue-card > p {
+        /* Please feel free to complete the form and we will provide you with a quote for the treatment you requested. */
+
+        margin-left: 20px;
+
+        font-family: Montserrat, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+
+
+    }
+    #blue-card .white-button {
+        margin-top: 20px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        margin-left: 20px;
+        float: bottom;
+    }
+
+
+    #ct-6 {
+        margin-top: 60px;
+    }
+        #ct-6 > a {
+            float: right;
+        }
+        #clinics-card > h1 {
+            text-align: center;
+        }
+        #clinics-card > p {
+            text-align: center;
+
+            font-family: Montserrat, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+
+            color: #FFFFFF;
+        }
+        #clinics-card .red-button > a {
+            position: absolute;
+            padding-top: 15px;
+            padding-left: 40px;
+
+            font-family: Montserrat, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+            /* identical to box height */
+            text-align: center;
+
+            color: #FFFFFF;
+
+
+
+        }
+        #clinics-card .red-button {
+            display: block;
+            margin-left: 40%;
+            height: 52px;
+            width: 200px;
+        }
+        #clinics-card {
+            padding-top: 103px;
+            position: absolute;
+            vertical-align: center;
+        }
+
+#transparent-button {
+    display: block;
+    margin-left: 20%;
+    margin-top: 20%;
+    height: 52px;
+    width: 200px;
+
+    background-color: transparent;
+    color: transparent;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.1));
+    border-radius: 5px;
+}
+#transparent-button > a {
+    position: absolute;
+    padding-left: 42px;
+    padding-top: 15px;
+
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+
+
+    color: #FFFFFF;
+
+
+}
+
+
 
     #how-it-works .ct-8-content {
        margin: 0;

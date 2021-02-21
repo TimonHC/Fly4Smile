@@ -80,7 +80,7 @@
                     </div>
 
                     <div class="inp">
-                        <input type="text" autocomplete="off" placeholder="E.g. Veneers" id="search">
+                        <label for="search"></label><input type="text" autocomplete="off" placeholder="E.g. Veneers" id="search">
                         <div class="red-button" id="search-red-button"><a id="search-button-text">Search</a></div>
                     </div>
 
@@ -246,12 +246,16 @@
 
             <div class="col-xs-12 col-lg-6">
 
-                <div class="card text-white col-xs-6 col-lg-13" >
+                <div class="card col-xs-6 col-lg-13" >
                     <img class="card-img" src="images/acc-img-1.png" alt="Card image">
-                    <div class="card-img-overlay" id="contact-us-card">
+                    <div class="card-img-overlay contact-us-card">
                         <img src="images/card-img-message.png" alt="message-img">
                         <h5 class="card-title">Get a Free Quote</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>                    </div>
+                        <p class="card-text">Please feel free to complete <br>
+                           the form and we will provide<br> you with a quote for the <br> treatment you requested.</p>
+                        <div class="white-button"><a>Get It Now</a></div>
+                    </div>
+
                 </div>
 
             </div>
@@ -260,10 +264,11 @@
 
                 <div>
                     <img class="card-img" src="images/acc-img-2.png" alt="Card image">
-                    <div class="card-img-overlay">
-                        <h5 class="card-title">Название карточки</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text">Last updated 3 mins ago</p>
+                    <div class="card-img-overlay contact-us-card" id="white-card">
+                        <img src="images/card-img-question.png" alt="img-question">
+                        <h5 class="card-title">What do I need?</h5>
+                        <p class="card-text">If you are not sure what you need, please complete this form.</p>
+                        <div class="white-button"><a>Ask Now</a></div>
                     </div>
                 </div>
 
@@ -273,15 +278,15 @@
 
                 <div>
                     <img class="card-img" src="images/acc-img-3.png" alt="Card image">
-                    <div class="card-img-overlay">
-                        <h5 class="card-title">Название карточки</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text">Last updated 3 mins ago</p>
+                    <div class="card-img-overlay contact-us-card" id="blue-card">
+                        <img src="images/card-img-phone.png" alt="phone-image">
+                        <h5 class="card-title">What do I need?</h5>
+                        <p class="card-text">If you are not sure what you need, please complete this form.</p>
+                        <div class="white-button"><a>Talk Now</a></div>
                     </div>
                 </div>
 
             </div>
-
 
         </div>
 
@@ -295,24 +300,46 @@
 
     <div id="ct-6" class="align-center-items horizontal-separator">
         <h1 class="section-header">Clinics</h1>
-        <a class="header-link" href="#">Kusadası</a>
-        <a class="header-link" href="#">Istanbul</a>
-        <a class="header-link" href="#">See all treatments &#8594;</a>
+
+        <div style="float:right">
+            <a class="header-link" href="#">Kusadası</a>
+            <a class="vertical-separator-right" style="margin-left: 15px"></a>
+            <a class="header-link" href="#" style="margin-left: 15px">Istanbul</a>
+            <a class="header-link" href="#" style="float: right; margin-left: 20px;">See all treatments &#8594;</a>
+        </div>
     </div>
 
     <div class="container align-center-items">
         <div class="row">
 
-            <div class="col-lg-12">
-                <img src="images/ct-5-img-1.png" alt="clinics-image">
-            </div>
+            <div class="col-lg-12" style="padding-bottom: 20px">
+
+                <div class="card text-white">
+                    <img class="card-img" src="images/ct-5-img-1.png" alt="clinics-image">
+                    <div class="card-img-overlay" id="clinics-card">
+
+                            <h1>Kusadasi</h1>
+                            <p>Tourmedical clinics are smartly designed with <br> all high technolgy & equipment.</p>
+                            <div class="red-button"><a>Wiew Details</a></div>
+
+                    </div>
+                </div>
+
+            </div pad>
 
             <div class="col-lg-4">
                 <img src="images/ct-5-img-2.png" alt="clinics-image">
             </div>
 
             <div class="col-lg-4">
-                <img src="images/ct-5-img-3.png" alt="clinics-image">
+
+            <div class="card bg-dark text-white">
+                    <img src="images/ct-5-img-3.png" class="card-img" alt="clinics-img">
+                    <div class="card-img-overlay">
+                        <div class="red-button" id="transparent-button"><a>Show Photo</a></div>
+                    </div>
+                </div>
+
             </div>
 
             <div class="col-lg-4">
