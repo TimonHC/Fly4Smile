@@ -78,6 +78,16 @@ h1 {
 
     color: #EA4344;
 }
+
+.red-button:active {
+    /* Rectangle 3 */
+    background: linear-gradient(180deg, #B61516 0%, #DC3133 100%);
+    border: 2px solid rgba(167, 76, 76, 0.46);
+    box-sizing: border-box;
+    border-radius: 5px;
+
+}
+
 .white-button {
     width: 200px;
     height: 52px;
@@ -87,6 +97,57 @@ h1 {
     border-radius: 5px;
     display: inline-block;
 }
+.white-button:hover {
+    border: 2px solid #EA4344;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.white-button:active {
+    background: #EA4344;
+    border-radius: 5px;
+}
+
+#transparent-button:active {
+    border: 2px solid #EA4344;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+}
+#transparent-button {
+    cursor: pointer;
+    display: block;
+    margin-left: 20%;
+    margin-top: 20%;
+    height: 52px;
+    width: 200px;
+
+    background-color: transparent;
+    color: transparent;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.1));
+    border-radius: 5px;
+}
+#transparent-button > a {
+    position: absolute;
+    padding-left: 42px;
+    padding-top: 15px;
+
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+
+
+    color: #FFFFFF;
+
+
+}
+
+
+
+
 
 
     .header {
@@ -205,7 +266,6 @@ h1 {
                 transition: all .4s ease;
             }
             .red-button:hover {
-                background: #1C232F;
                 text-decoration: none;
             }
             #header-button-wrap {
@@ -357,6 +417,10 @@ h1 {
         color: #000000;
 
     }
+    .ct-4-content > h4 > a {
+        text-decoration: none;
+        color: #1C232F;
+    }
     .ct-4-special-offer {
         display: inline-block;
         margin-top: 23px;
@@ -385,7 +449,12 @@ h1 {
 
         color: #555D6B;
     }
-
+    .treatment > img {
+        cursor: pointer;
+    }
+    .ct-4-content-header {
+        cursor: pointer;
+    }
 
 
 #ct-5 {
@@ -424,9 +493,6 @@ h1 {
         cursor: pointer;
         margin-left: 20px;
         float: bottom;
-    }
-    .contact-us-card > .white-button:hover {
-        color: #1C232F;
     }
     .contact-us-card .white-button a {
         /* Get It Now */
@@ -529,7 +595,7 @@ h1 {
         float: bottom;
     }
 
-    #ct-6 {
+#ct-6 {
         margin-top: 60px;
     }
         #ct-6 > a {
@@ -580,41 +646,66 @@ h1 {
             vertical-align: center;
         }
 
-    #transparent-button {
-        cursor: pointer;
-        display: block;
-        margin-left: 20%;
-        margin-top: 20%;
-        height: 52px;
-        width: 200px;
 
-        background-color: transparent;
-        color: transparent;
-        border: 2px solid #FFFFFF;
-        box-sizing: border-box;
-        filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.1));
-        border-radius: 5px;
-    }
-    #transparent-button > a {
-        position: absolute;
-        padding-left: 42px;
-        padding-top: 15px;
-
-        font-family: Montserrat, sans-serif;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 22px;
-
-
-        color: #FFFFFF;
-
-
-    }
 
 #before-after {
     margin-top: 60px;
 }
+    .slider {
+        text-align: center;
+        overflow: hidden;
+    }
+    .slides {
+        display: flex;
+
+        overflow-x: auto;
+        scroll-snap-type: none;
+
+        scroll-behavior: smooth;
+        -webkit-overflow-scrolling: touch;
+
+        /*
+        scroll-snap-points-x: repeat(300px);
+        scroll-snap-type: mandatory;
+        */
+    }
+    .slides::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+
+    }
+    .slides::-webkit-scrollbar-thumb {
+        background: #089FB9;
+        border-radius: 31px;
+        width: 10px;
+    }
+    .slides::-webkit-scrollbar-track {
+        background: transparent;
+    }
+    .slides > div {
+        scroll-snap-align: start;
+        flex-shrink: 0;
+        margin-right: 50px;
+        transform-origin: center center;
+        transform: scale(1);
+        transition: transform 0.5s;
+        position: relative;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 100px;
+    }
+    .slides > div:target {
+        /*   transform: scale(0.8); */
+
+    }
+    .slides > div > img {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 5px;
+
+    }
 
 #how-it-works {
 
@@ -677,15 +768,36 @@ h1 {
         color: #FFFFFF;
     }
 
-    .footer-container {
+.footer-container {
         display: block;
         margin-top: 60px;
     }
-
     .footer-column {
         display: inline-block;
     }
+        .footer-column > .advantages {
+            margin-top: 15px;
+            padding-right: 15px;
+        }
+        .footer-column > .c3-content {
+            /* Personalized treatment plans and travel packages */
 
+            font-family: Montserrat, serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+
+            color: #000000;
+
+        }
+        .footer-column > .vertical-separator {
+            border-right: 1px solid #CFCFCF;
+            border-left: 0 solid transparent;
+        }
+        .footer-column > .main-logo {
+            margin-bottom: 35px;
+        }
     #footer-columns-wrapper {
         display: table;
 
@@ -702,50 +814,18 @@ h1 {
         display: inline-block;
         margin-bottom: 30px;
     }
-
     #second-column {
         padding-left: 20px;
     }
-
     #third-column {
         padding-left: 85px;
     }
-
     #fourth-column {
         padding-left: 85px;
     }
-
     #fifth-column {
         padding-left: 85px;
     }
-
-    .footer-column > .advantages {
-        margin-top: 15px;
-        padding-right: 15px;
-    }
-
-    .footer-column > .c3-content {
-        /* Personalized treatment plans and travel packages */
-
-        font-family: Montserrat, serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 22px;
-
-        color: #000000;
-
-    }
-
-    .footer-column > .vertical-separator {
-        border-right: 1px solid #CFCFCF;
-        border-left: 0 solid transparent;
-    }
-
-    .footer-column > .main-logo {
-        margin-bottom: 35px;
-    }
-
     .footer-h1 {
         /* TREATMENTS */
         font-family: Prompt, serif;
@@ -758,13 +838,11 @@ h1 {
         color: #1C232F;
         text-decoration: none;
     }
-
     .footer-h1:hover {
 
         color: #1C232F;
         text-decoration: underline;
     }
-
     .footer-p {
         text-decoration: none;
 
@@ -777,12 +855,10 @@ h1 {
 
         color: #555D6B;
     }
-
     .footer-p:hover {
         text-decoration: underline;
         color: #555D6B;
     }
-
     #footer-links-wrapper-1 {
         display: inline-block;
         float: left;
@@ -829,100 +905,21 @@ h1 {
         display: inline-block;
         text-decoration: none;
     }
+    #footer-links-wrapper-2 {
+                display: inline-block;
+                float: right;
+            }
+    #footer-links-wrapper-2 > p {
 
-#footer-links-wrapper-2 {
             display: inline-block;
-            float: right;
-        }
-#footer-links-wrapper-2 > p {
 
-        display: inline-block;
+            font-family: Montserrat, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 200%;
 
-        font-family: Montserrat, sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 200%;
-
-color: #1C232F;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .slider {
-        text-align: center;
-        overflow: hidden;
-    }
-
-    .slides {
-        display: flex;
-
-        overflow-x: auto;
-        scroll-snap-type: none;
-
-        scroll-behavior: smooth;
-        -webkit-overflow-scrolling: touch;
-
-        /*
-        scroll-snap-points-x: repeat(300px);
-        scroll-snap-type: mandatory;
-        */
-    }
-    .slides::-webkit-scrollbar {
-       width: 10px;
-        height: 10px;
-
-    }
-    .slides::-webkit-scrollbar-thumb {
-        background: #089FB9;
-        border-radius: 31px;
-        width: 10px;
-    }
-
-    .slides::-webkit-scrollbar-track {
-        background: transparent;
-    }
-
-    .slides > div {
-        scroll-snap-align: start;
-        flex-shrink: 0;
-        margin-right: 50px;
-        transform-origin: center center;
-        transform: scale(1);
-        transition: transform 0.5s;
-        position: relative;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 100px;
-    }
-
-    .slides > div:target {
-        /*   transform: scale(0.8); */
-
-    }
-
-    .slides > div > img {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 5px;
-
+    color: #1C232F;
     }
 
 
