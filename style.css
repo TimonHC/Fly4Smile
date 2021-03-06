@@ -375,7 +375,6 @@ h1 {
 
 #ct-4 {
     margin-top: 71px;
-
 }
     .ct-4 > h1 {
         display: inline-block;
@@ -460,6 +459,7 @@ h1 {
 #ct-5 {
         margin-top: 50px;
     }
+
     .contact-us-card > img{
         padding-left: 20px;
         padding-top: 30px;
@@ -923,5 +923,19 @@ h1 {
     color: #1C232F;
     }
 
+ #gallery {
+    display: block;
+    margin-bottom: 30px;
+    }
 
+.gallery-column {
+    display: inline-block;
+    max-width: 48.8%;
+}
 
+.gallery-column-item-img-container > img {
+    max-width: 48.8%;
+}
+#gallery-second-column {
+    margin-left: 22px;
+}
