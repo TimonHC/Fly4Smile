@@ -451,9 +451,18 @@ h1 {
     .treatment > img {
         cursor: pointer;
     }
+    .ct-4-content {
+        margin-left: 27%;
+    }
     .ct-4-content-header {
         cursor: pointer;
     }
+    .ct-4-content-header > a{
+        width: 255px;
+        cursor: pointer;
+
+    }
+
 
 
 #ct-5 {
