@@ -68,7 +68,7 @@ h1 {
     border-right: 1px solid #CFCFCF;
 }
 .header-link {
-    font-family: Montserrat, serif;
+    font-family: Montserrat, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -178,7 +178,7 @@ h1 {
 
             padding-left: 172px;
 
-            font-family: Montserrat, serif;
+            font-family: Montserrat, sans-serif;
             font-style: normal;
             font-weight: normal;
             font-size: 16px;
@@ -233,7 +233,7 @@ h1 {
             #header-favorites-button > a {
                 text-align: center;
 
-                font-family: Montserrat, serif;
+                font-family: Montserrat, sans-serif;
                 font-style: normal;
                 font-weight: 500;
                 font-size: 18px;
@@ -279,7 +279,7 @@ h1 {
                 margin-bottom: 13px;
                 text-align: center;
 
-                font-family: Montserrat, serif;
+                font-family: Montserrat, sans-serif;
                 font-style: normal;
                 font-weight: bold;
                 font-size: 18px;
@@ -358,7 +358,7 @@ h1 {
                     display: table-cell;
                     vertical-align: middle;
 
-                    font-family: Montserrat, serif;
+                    font-family: Montserrat, sans-serif;
                     font-style: normal;
                     font-weight: normal;
                     font-size: 18px;
@@ -379,7 +379,7 @@ h1 {
     .ct-4 > h1 {
         display: inline-block;
             float: left;
-            font-family: Prompt, serif;
+            font-family: Prompt, sans-serif;
             font-style: normal;
             font-weight: 600;
             font-size: 26px;
@@ -391,7 +391,7 @@ h1 {
         display: inline-block;
         float: right;
 
-        font-family: Montserrat, serif;
+        font-family: Montserrat, sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 18px;
@@ -425,7 +425,7 @@ h1 {
         margin-top: 23px;
         margin-left: 10px;
         float: left;
-        font-family: Montserrat, serif;
+        font-family: Montserrat, sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
@@ -440,7 +440,7 @@ h1 {
     .ct-4-content-description {
         margin-top: 30px;
         display: inline-block;
-        font-family: Montserrat, serif;
+        font-family: Montserrat, sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
@@ -783,7 +783,7 @@ h1 {
         .footer-column > .c3-content {
             /* Personalized treatment plans and travel packages */
 
-            font-family: Montserrat, serif;
+            font-family: Montserrat, sans-serif;
             font-style: normal;
             font-weight: normal;
             font-size: 18px;
@@ -829,7 +829,7 @@ h1 {
     }
     .footer-h1 {
         /* TREATMENTS */
-        font-family: Prompt, serif;
+        font-family: Prompt, sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 18px;
